@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Choose a current transit status</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In_Transit</fullName>
+                <default>false</default>
+                <label>In Transit</label>
+            </value>
+            <value>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>Lost_or_Missing</fullName>
+                <default>false</default>
+                <label>Lost or Missing</label>
+            </value>
+            <value>
+                <fullName>Received_for_Processing</fullName>
+                <default>false</default>
+                <label>Received for Processing</label>
+            </value>
+            <value>
+                <fullName>Arrived at customs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Arrived at customs</label>
+            </value>
+            <value>
+                <fullName>Arrived at the office of destination</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Arrived at the office of destination</label>
+            </value>
+            <value>
+                <fullName>Delivery attempt failed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Delivery attempt failed</label>
+            </value>
+            <value>
+                <fullName>In transit - Arrived at the waypoint</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>In transit - Arrived at the waypoint</label>
+            </value>
+            <value>
+                <fullName>Package accepted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Package accepted</label>
+            </value>
+            <value>
+                <fullName>Package has left the office for delivery</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Package has left the office for delivery</label>
+            </value>
+            <value>
+                <fullName>Package in transit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Package in transit</label>
+            </value>
+            <value>
+                <fullName>Package information received</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Package information received</label>
+            </value>
+            <value>
+                <fullName>Package is being prepared for delivery</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Package is being prepared for delivery</label>
+            </value>
+            <value>
+                <fullName>Package is ready for pick-up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Package is ready for pick-up</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
